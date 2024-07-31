@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="indexiz" translate="label" sortOrder="500" class="indexiz-config-tab">
+            <label>Indexiz</label>
+        </tab>
+    </system>
+</config>
