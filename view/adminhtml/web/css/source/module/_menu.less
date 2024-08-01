@@ -1,0 +1,44 @@
+.admin__menu {
+
+    //
+    //  Menu icons
+    //  ---------------------------------------------
+
+    .item-indexiz {
+        > a {
+            &:before {
+                content:           "" !important;
+                background-image:  url("Indexiz_Base::images/indexiz_logo_grayscale.svg");
+                background-repeat: no-repeat;
+                background-size: auto 20px;
+                background-position:center;
+            }
+            &:hover::before {
+                content:           "" !important;
+                background-image:  url("Indexiz_Base::images/indexiz_logo_grayscale_hover.svg");
+                background-repeat: no-repeat;
+                background-size: auto 20px;
+                background-position:center;
+            }
+        }
+        &._active {
+            > a {
+                &:before {
+                    content:           "" !important;
+                    background-image:  url("Indexiz_Base::images/indexiz_logo_grayscale_hover.svg");
+                    background-repeat: no-repeat;
+                    background-size: auto 20px;
+                    background-position:center;
+                }
+                &:hover::before {
+                    content:           "" !important;
+                    background-image:  url("Indexiz_Base::images/indexiz_logo_grayscale_hover.svg");
+                    background-repeat: no-repeat;
+                    background-size: auto 20px;
+                    background-position:center;
+                }
+            }
+        }
+    }
+
+}

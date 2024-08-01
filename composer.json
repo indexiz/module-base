@@ -1,6 +1,6 @@
 {
     "name": "indexiz/module-base",
-    "description": "Indexiz Base module contains basic contents for Indexiz extensions",
+    "description": "Indexiz Base module",
     "require": {
         "php": ">=7.1.0"
     },
